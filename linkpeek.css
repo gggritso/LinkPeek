@@ -1,0 +1,23 @@
+#linkpeek {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  padding: 3px 6px              !important;
+
+  max-width: 100%;
+
+  border-top-right-radius: 3px;
+
+  font-family: "Courier New"    !important;
+  font-size: 12px               !important;
+  line-height: 12px             !important;
+
+  color: #aaa;
+  background-color: #000;
+
+  transition: 0.25s opacity;
+
+  text-overflor: ellipsis;
+  z-index: 11;
+}
